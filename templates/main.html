@@ -3,40 +3,129 @@
 
 {% block body %}
 
+<section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+        <ol id="hero-carousel-indicators" class="carousel-indicators"><li data-bs-target="#heroCarousel" data-bs-slide-to="0" class=""></li><li data-bs-target="#heroCarousel" data-bs-slide-to="1" class=""></li><li data-bs-target="#heroCarousel" data-bs-slide-to="2" class="active" aria-current="true"></li></ol>
 
-    <div class="container aos-init aos-animate" data-aos="zoom-out" data-aos-delay="100">
-      <div class="row">
-        <div class="col-xl-6">
-          <h1>Pest and Termite treatment</h1>
-          <h2>Call us to avail best in class services</h2>
-          <a href="#contact" class="btn-get-started scrollto">Contact us</a>
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item" style="background-image: url('img/slide-1.jpg')">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">The Best Business Information </h2>
+                <p class="animate__animated animate__fadeInUp">We're In The Business Of Helping You Start Your Business</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item active carousel-item-start" style="background-image: url(assets/img/hero-carousel/sample1.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>
+                <p class="animate__animated animate__fadeInUp">Helping Business Security &amp; Peace of Mind for Your Family</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+            {% for i in slider %}
+
+          <div class="carousel-item carousel-item-next carousel-item-start" style="background-image: url('/media/{{ i.IMG }}')">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">{{ i.heading }}</h2>
+                <p class="animate__animated animate__fadeInUp">{{ i.title }}</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+            {% endfor %}
+
         </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
       </div>
     </div>
-
-  </section><!-- End Hero -->
+  </section><!-- End Hero Section -->
 
   <main id="main">
 
-
-
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients container">
-    <div class="row m-0 p-0">
-      <div class="col-12 col-md-3">
-        <div class="text-center py-3">
-          <h2 class="text-danger" style="font-size: 32px;font-weight: bold;text-transform: uppercase;position: relative;">our</h2>
-          <h1  style="    font-size: 32px;font-weight: bold;text-transform: uppercase;position: relative;">client</h1>
-        <hr class="bg-danger" style="width: 40%; height: 4px;opacity: 100;margin: auto">
-            <br>
+    <!-- ======= About Section ======= -->
+    <div id="about" class="about-area area-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h2>About Us</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- single-well start-->
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="well-left">
+              <div class="single-well">
+                <a href="#">
+                  <img src="/media/img/blog-3.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- single-well end-->
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="well-middle">
+              <div class="single-well">
+                <a href="#">
+                  <h4 class="sec-head">Our Professional Team gives you Best Service and Excellent Support.</h4>
+                </a>
+                <p>
+Welcome to <b>Diamond Pest Control Services</b>  a Pest Control based company. We provide the best Pest Management Services from protection to prevention and from removal to elimination. Our expert Pest Inspection team are on <b>call 7 days a week</b> to keep your home and business safe and protected.
+                </p>
+                <ul>
+                  <li>
+                    <i class="bi bi-check"></i> Interior design Package
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i> Building House
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i> Reparing of Residentail Roof
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i> Renovaion of Commercial Office
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i> Make Quality Products
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End col-->
         </div>
       </div>
-      <div class="col-12 col-md-9 ">
-    <div class="scroll">
-               <img src="/media/client1.gif" class="mx-2" style="max-height:150px;max-width: 150px">
+    </div><!-- End About Section -->
+
+
+
+    <section id="clients" class="clients">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center mt-5">
+              <h2>Our Clients</h2>
+            </div>
+          </div>
+<div class="scroll container">
+            <img src="/media/client1.gif" class="mx-2" style="max-height:150px;max-width: 150px">
 
             <img src="/media/client2.jpeg" class="mx-2" style="max-height:150px;max-width: 150px">
 
@@ -57,290 +146,237 @@
 
             <img src="/media/client6.png" class="mx-2" style="max-height:150px;max-width: 150px">
      </div>
+    </section><!-- End Clients Section -->
+<br>
 
-      </div>
+
+
+<div class="container">
 
     </div>
-
-    </section>
-      <!-- End Clients Section -->
-
-
-
-
-    <!-- ======= About Section ======= -->
-    <!-- End About Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <!-- End Counts Section -->
-
-    <!-- ======= Tabs Section ======= -->
-    <!-- End Tabs Section -->
-
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg ">
-      <div class="container aos-init aos-animate" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>We provide cutomized services for all kind of establishments.</p>
-        </div>
-
+    <div id="services" class="services-area area-padding" style="background-color:#f9f9f9;">
+      <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-              <i class="bi"><img src="/media/no-bugs.png" style="max-height:40px;max-width: 40px"></i>
-              <h4><a href="#">TERMITE CONTROL</a></h4>
-              <p>A well-organized termite colony can have more than a million hungry workers consuming over 100 pounds of wood per year. The average cost of termite treatment and damage repairs is more than $8,000.</p>
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline services-head text-center">
+              <h2>Our Services</h2>
             </div>
           </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi"><img src="/media/cockroach.png" style="max-height:40px;max-width: 40px"></i>
-              <h4><a href="#">COCKROACH CONTROL</a></h4>
-              <p>Cockroaches will never stop trying to get into your home for food, water and shelter. And since they’re nocturnal creatures adept at hiding, an infestation can get out of hand before you ever realize they’re in your home.</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi"><img src="/media/rat.png" style="max-height:40px;max-width: 40px"></i>
-              <h4><a href="#">MICE CONTROL</a></h4>
-              <p>MICE cause a lot of damage. As the teeth of rodents continue to grow over their lifetime, they need to gnaw on hard substances such as lead and plastic pipes, insulation material and electric wiring.</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-binoculars"></i>
-              <h4><a href="#">CRAWLING INSECTS CONTROL</a></h4>
-              <p>This nocturnal and discreet pest which can cause an infestation to go unnoticed for a long period of time until substantial damages have been done .can be found in damp areas such as kitchens, bathrooms, basements and attics</p>
-            </div>
-          </div>
-
-
         </div>
-
+        <div class="row text-center">
+          <!-- Start Left services -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                    <i class="bi"><img src="/media/assets/img/service/termite (1).png" style="max-height:40px;max-width: 40px"></i>
+                  </a>
+                  <h4><b>TERMITE CONTROL</b></h4>
+                  <p>
+                    A well-organized termite colony can have more than a million hungry workers consuming over 100 pounds of wood per year. The average cost of termite treatment and damage repairs is more than $8,000.
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                    <i class="bi"><img src="/media/assets/img/service/COCKROACH (1).png" style="max-height:40px;max-width: 40px"></i>
+                  </a>
+                  <h4><b>COCKROACH CONTROL</b></h4>
+                  <p>
+                   Cockroaches will never stop trying to get into your home for food, water and shelter. And since they’re nocturnal creatures adept at hiding, an infestation can get out of hand before you ever realize they’re in your home.
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                    <i class="bi"><img src="/media/img/service/rodent.png" style="max-height:40px;max-width: 40px"></i>
+                  </a>
+                  <h4><b>MICE CONTROL</b></h4>
+                  <p>
+                   MICE cause a lot of damage. As the teeth of rodents continue to grow over their lifetime, they need to gnaw on hard substances such as lead and plastic pipes, insulation material and electric wiring.
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                    <i class="bi bi-"><img src="/media/assets/img/service/woodborers.png" style="max-height:40px;max-width: 40px"></i>
+                  </a>
+                  <h4><b>CRAWLING INSECTS CONTROL</b> </h4>
+                  <p>
+                   This nocturnal and discreet pest which can cause an infestation to go unnoticed for a long period of time until substantial damages have been done .can be found in damp areas such as kitchens, bathrooms, basements and attics
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <!-- End Left services -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                    <i class="bi bi-b"><img src="/media/assets/img/service/bugs.png" style="max-height:40px;max-width: 40px"></i>
+                  </a>
+                  <h4><b>Bed Bugs Treatment</b></h4>
+                  <p>
+                    Bed bugs are a significant problem in India and around the world. They are easily spread and difficult to treat resulting in a rapid growth in the number of bed bug outbreaks.
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <!-- End Left services -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon" href="#">
+                    <i class="bi bi-b"><img src="/media/assets/img/service/termite.png" style="max-height:40px;max-width: 40px">
+                    </i>
+                  </a>
+                  <h4><b>Construction Termite Soil Treatment</b></h4>
+                  <p>
+                    The first step in pre construction treatment against White ants is to treat the walts and base of the footing trench with our chemical. Concrete is then poured in the trench to from the footing of the exterior wall.
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+        </div>
       </div>
-    </section><!-- End Services Section -->
+    </div><!-- End Services Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container aos-init aos-animate" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+
+    <!-- ======= Rviews Section ======= -->
+    <div class="reviews-area">
+      <div class="row g-0">
+        <div class="col-lg-6">
+          <img src="/media/img/blog-2.jpg" alt="" class="img-fluid">
         </div>
-
-        <div class="row aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
+        <div class="col-lg-6 work-right-text d-flex align-items-center">
+          <div class="px-5 py-5 py-lg-0">
+            <h2>working with us</h2>
+            <h5>Termite Control, Home Inspection, Disinfecting Offices, Schools, etc.</h5>
+            <a href="#contact" class="ready-btn scrollto">Contact us</a>
           </div>
         </div>
-
-        <div class="row portfolio-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 1410px;">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="position: absolute; left: 360px; top: 0px;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 282px;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="position: absolute; left: 360px; top: 282px;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="position: absolute; left: 0px; top: 564px;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 360px; top: 564px;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="position: absolute; left: 0px; top: 846px;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="position: absolute; left: 360px; top: 846px;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" style="position: absolute; left: 0px; top: 1128px;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
       </div>
-    </section><!-- End Portfolio Section -->
+    </div><!-- End Rviews Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <!-- End Testimonials Section -->
 
-    <!-- ======= Pricing Section ======= -->
-    <!-- End Pricing Section -->
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <!-- End Frequently Asked Questions Section -->
-
-    <!-- ======= Team Section ======= -->
-    <!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container aos-init aos-animate" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Having trouble? Find the answer to your query here.<br><span style="font-weight: lighter;">
-Don’t hesitate to contact us!</span></p>
-        </div>
-
-        <div class="row aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-6">
-
-            <div class="row">
-              <div class="col-md-12">
-                <div class="info-box">
-                  <i class="bx bx-map"></i>
-                  <h3>Our Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
+    <div id="contact" class="contact-area">
+      <div class="contact-inner area-padding">
+        <div class="contact-overly"></div>
+        <div class="container ">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="section-headline text-center">
+                <h2>Contact us</h2>
               </div>
-              <div class="col-md-6">
-                <div class="info-box mt-4">
-                  <i class="bx bx-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>info@example.com<br>contact@example.com</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box mt-4">
-                  <i class="bx bx-phone-call"></i>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Start contact icon column -->
+            <div class="col-md-4">
+              <div class="contact-icon text-center">
+                <div class="single-icon">
+                  <i class="bi "><img src="/media/assets/img/service/smartphone-call.png" style="max-height:40px;max-width: 40px">
+
+                  </i>
+                  <p>
+                     Call: +91 9953457978<br>
+                     Call: 011-29943812
+                     <br>
+                    <span>Monday-Friday (9am-5pm)</span>
+                  </p>
                 </div>
               </div>
             </div>
+            <!-- Start contact icon column -->
+            <div class="col-md-4">
+              <div class="contact-icon text-center">
+                <div class="single-icon">
+                  <i class="bi "><img src="/media/assets/img/service/mail-512.png" style="max-height:40px;max-width: 40px">
 
+                  </i>                  <p>
+                    Email: info@example.com<br>
+                    <span>Web: www.diamond-pest-control.com</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Start contact icon column -->
+            <div class="col-md-4">
+              <div class="contact-icon text-center">
+                <div class="single-icon">
+                  <i class="bi "><img src="/media/assets/img/service/worldwide-location-512.png" style="max-height:40px;max-width: 40px">
+
+                  </i>                  <p>
+                    Location: A108 Kandivali West<br>
+                    <span>Mumbai, Maharashtra</span>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="row">
 
-          <div class="col-lg-6">
-            <form  method="post" class="text-danger" style="     padding: 0;line-height: 24px;font-size: 14px;margin-bottom: 0;">{% csrf_token %}
-                {{ form|crispy }}
-              <input class="btn btn-danger mt-2" type="submit" value="Send Message">
-            </form>
+            <!-- Start Google Map -->
+            <div class="col-md-6">
+              <!-- Start Map -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <!-- End Map -->
+            </div>
+            <!-- End Google Map -->
+
+            <!-- Start  contact -->
+            <div class="col-md-6">
+              <div class="form contact-form">
+                <form method="post">{% csrf_token %}
+                    {{ form|crispy }}
+
+                  <div class="text-left"><input type="submit" value="Send Message" class="btn btn-warning"></div>
+                </form>
+              </div>
+            </div>
+            <!-- End Left contact -->
           </div>
-
         </div>
-
       </div>
-    </section><!-- End Contact Section -->
+    </div><!-- End Contact Section -->
 
   </main><!-- End #main -->
-
 
 
 

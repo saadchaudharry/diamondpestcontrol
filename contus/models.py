@@ -11,3 +11,15 @@ class Contact(models.Model):
 
     def __str__(self):
         return str(self.name)
+
+class Slider(models.Model):
+    IMG     =models.ImageField(upload_to='slider')
+    heading =models.CharField(max_length=999,null=True,blank=True)
+    title   =models.CharField(max_length=9999,null=True,blank=True)
+    order   =models.IntegerField()
+
+    class Meta:
+        ordering = ('order',)
+
+    def __str__(self):
+        return str(self.IMG)
