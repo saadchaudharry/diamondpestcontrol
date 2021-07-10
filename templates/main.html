@@ -3,62 +3,92 @@
 
 {% block body %}
 
-<section id="hero">
-    <div class="hero-container">
-      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+{#<section id="hero">#}
+{#    <div class="hero-container">#}
+{#      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">#}
+{##}
+{#        <ol id="hero-carousel-indicators" class="carousel-indicators"><li data-bs-target="#heroCarousel" data-bs-slide-to="0" class=""></li><li data-bs-target="#heroCarousel" data-bs-slide-to="1" class=""></li><li data-bs-target="#heroCarousel" data-bs-slide-to="2" class="active" aria-current="true"></li></ol>#}
+{##}
+{#        <div class="carousel-inner" role="listbox">#}
+{##}
+{#          <div class="carousel-item" style="background-image: url('img/slide-1.jpg')">#}
+{#            <div class="carousel-container">#}
+{#              <div class="container">#}
+{#                <h2 class="animate__animated animate__fadeInDown">The Best Business Information </h2>#}
+{#                <p class="animate__animated animate__fadeInUp">We're In The Business Of Helping You Start Your Business</p>#}
+{#                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>#}
+{#              </div>#}
+{#            </div>#}
+{#          </div>#}
+{##}
+{#          <div class="carousel-item active carousel-item-start" style="background-image: url(assets/img/hero-carousel/sample1.jpg)">#}
+{#            <div class="carousel-container">#}
+{#              <div class="container">#}
+{#                <h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>#}
+{#                <p class="animate__animated animate__fadeInUp">Helping Business Security &amp; Peace of Mind for Your Family</p>#}
+{#                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>#}
+{#              </div>#}
+{#            </div>#}
+{#          </div>#}
+{##}
+{#            {% for i in slider %}#}
+{##}
+{#          <div class="carousel-item carousel-item-next carousel-item-start" style="background-image: url('/media/{{ i.IMG }}')">#}
+{#            <div class="carousel-container">#}
+{#              <div class="container">#}
+{#                <h2 class="animate__animated animate__fadeInDown">{{ i.heading }}</h2>#}
+{#                <p class="animate__animated animate__fadeInUp">{{ i.title }}</p>#}
+{#                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>#}
+{#              </div>#}
+{#            </div>#}
+{#          </div>#}
+{#            {% endfor %}#}
+{##}
+{#        </div>#}
+{##}
+{#        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">#}
+{#          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>#}
+{#        </a>#}
+{##}
+{#        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">#}
+{#          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>#}
+{#        </a>#}
+{##}
+{#      </div>#}
+{#    </div>#}
+{#  </section>#}
+    <!-- End Hero Section -->
 
-        <ol id="hero-carousel-indicators" class="carousel-indicators"><li data-bs-target="#heroCarousel" data-bs-slide-to="0" class=""></li><li data-bs-target="#heroCarousel" data-bs-slide-to="1" class=""></li><li data-bs-target="#heroCarousel" data-bs-slide-to="2" class="active" aria-current="true"></li></ol>
 
-        <div class="carousel-inner" role="listbox">
 
-          <div class="carousel-item" style="background-image: url('img/slide-1.jpg')">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">The Best Business Information </h2>
-                <p class="animate__animated animate__fadeInUp">We're In The Business Of Helping You Start Your Business</p>
-                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item active carousel-item-start" style="background-image: url(assets/img/hero-carousel/sample1.jpg)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>
-                <p class="animate__animated animate__fadeInUp">Helping Business Security &amp; Peace of Mind for Your Family</p>
-                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-            {% for i in slider %}
-
-          <div class="carousel-item carousel-item-next carousel-item-start" style="background-image: url('/media/{{ i.IMG }}')">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">{{ i.heading }}</h2>
-                <p class="animate__animated animate__fadeInUp">{{ i.title }}</p>
-                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
-              </div>
-            </div>
-          </div>
-            {% endfor %}
-
-        </div>
-
-        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
-
-        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
-
-      </div>
-    </div>
-  </section><!-- End Hero Section -->
+<br>
+<br>
+<br>
 
   <main id="main">
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/media/assets/img/service/1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/media/assets/img/service/2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/media/assets/img/service/3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
 
     <!-- ======= About Section ======= -->
     <div id="about" class="about-area area-padding">
@@ -86,26 +116,30 @@
             <div class="well-middle">
               <div class="single-well">
                 <a href="#">
-                  <h4 class="sec-head">Our Professional Team gives you Best Service and Excellent Support.</h4>
+                  <h4 class="sec-head">Introduction</h4>
                 </a>
                 <p>
-Welcome to <b>Diamond Pest Control Services</b>  a Pest Control based company. We provide the best Pest Management Services from protection to prevention and from removal to elimination. Our expert Pest Inspection team are on <b>call 7 days a week</b> to keep your home and business safe and protected.
+                Firstly we would like to introduce our company<b> “Diamond Pest Control Service”.</b>
+                We are government approved working in Delhi NCR since 1999.We are rendering IPM service and control all types of pest. We have been serving at various sectors by providing pest control services in Delhi-NCR since two decades and have successfully completed many projects.
                 </p>
+                <h6 class="sec-head">OUR VALUES:</h6>
+
+
                 <ul>
                   <li>
-                    <i class="bi bi-check"></i> Interior design Package
+                    <i class="bi bi-check"></i> Clients and staff!
                   </li>
                   <li>
-                    <i class="bi bi-check"></i> Building House
+                    <i class="bi bi-check"></i> Passion given to all levels of work!
                   </li>
                   <li>
-                    <i class="bi bi-check"></i> Reparing of Residentail Roof
+                    <i class="bi bi-check"></i> Fresh thinking!
                   </li>
                   <li>
                     <i class="bi bi-check"></i> Renovaion of Commercial Office
                   </li>
                   <li>
-                    <i class="bi bi-check"></i> Make Quality Products
+                    <i class="bi bi-check"></i> Exciting opportunities and the future!
                   </li>
                 </ul>
               </div>
@@ -118,35 +152,7 @@ Welcome to <b>Diamond Pest Control Services</b>  a Pest Control based company. W
 
 
 
-    <section id="clients" class="clients">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline text-center mt-5">
-              <h2>Our Clients</h2>
-            </div>
-          </div>
-<div class="scroll container">
-            <img src="/media/client1.gif" class="mx-2" style="max-height:150px;max-width: 150px">
 
-            <img src="/media/client2.jpeg" class="mx-2" style="max-height:150px;max-width: 150px">
-
-            <img src="/media/client3.jpeg" class="mx-2" style="max-height:150px;max-width: 150px">
-
-            <img src="/media/client4.png" class="mx-2" style="max-height:150px;max-width: 150px">
-
-
-            <img src="/media/client6.png" class="mx-2" style="max-height:150px;max-width: 150px">
-            <img src="/media/client1.gif" class="mx-2" style="max-height:150px;max-width: 150px">
-
-            <img src="/media/client2.jpeg" class="mx-2" style="max-height:150px;max-width: 150px">
-
-            <img src="/media/client3.jpeg" class="mx-2" style="max-height:150px;max-width: 150px">
-
-            <img src="/media/client4.png" class="mx-2" style="max-height:150px;max-width: 150px">
-
-
-            <img src="/media/client6.png" class="mx-2" style="max-height:150px;max-width: 150px">
-     </div>
-    </section><!-- End Clients Section -->
 <br>
 
 
@@ -174,9 +180,7 @@ Welcome to <b>Diamond Pest Control Services</b>  a Pest Control based company. W
                     <i class="bi"><img src="/media/assets/img/service/termite (1).png" style="max-height:40px;max-width: 40px"></i>
                   </a>
                   <h4><b>TERMITE CONTROL</b></h4>
-                  <p>
-                    A well-organized termite colony can have more than a million hungry workers consuming over 100 pounds of wood per year. The average cost of termite treatment and damage repairs is more than $8,000.
-                  </p>
+
                 </div>
               </div>
               <!-- end about-details -->
@@ -190,9 +194,7 @@ Welcome to <b>Diamond Pest Control Services</b>  a Pest Control based company. W
                     <i class="bi"><img src="/media/assets/img/service/COCKROACH (1).png" style="max-height:40px;max-width: 40px"></i>
                   </a>
                   <h4><b>COCKROACH CONTROL</b></h4>
-                  <p>
-                   Cockroaches will never stop trying to get into your home for food, water and shelter. And since they’re nocturnal creatures adept at hiding, an infestation can get out of hand before you ever realize they’re in your home.
-                  </p>
+
                 </div>
               </div>
               <!-- end about-details -->
@@ -204,12 +206,9 @@ Welcome to <b>Diamond Pest Control Services</b>  a Pest Control based company. W
               <div class="services-details">
                 <div class="single-services">
                   <a class="services-icon" href="#">
-                    <i class="bi"><img src="/media/img/service/rodent.png" style="max-height:40px;max-width: 40px"></i>
+                    <i class="bi"><img src="/media/assets/img/service/rodent.png" style="max-height:40px;max-width: 40px"></i>
                   </a>
                   <h4><b>MICE CONTROL</b></h4>
-                  <p>
-                   MICE cause a lot of damage. As the teeth of rodents continue to grow over their lifetime, they need to gnaw on hard substances such as lead and plastic pipes, insulation material and electric wiring.
-                  </p>
                 </div>
               </div>
               <!-- end about-details -->
@@ -224,9 +223,6 @@ Welcome to <b>Diamond Pest Control Services</b>  a Pest Control based company. W
                     <i class="bi bi-"><img src="/media/assets/img/service/woodborers.png" style="max-height:40px;max-width: 40px"></i>
                   </a>
                   <h4><b>CRAWLING INSECTS CONTROL</b> </h4>
-                  <p>
-                   This nocturnal and discreet pest which can cause an infestation to go unnoticed for a long period of time until substantial damages have been done .can be found in damp areas such as kitchens, bathrooms, basements and attics
-                  </p>
                 </div>
               </div>
               <!-- end about-details -->
@@ -242,9 +238,7 @@ Welcome to <b>Diamond Pest Control Services</b>  a Pest Control based company. W
                     <i class="bi bi-b"><img src="/media/assets/img/service/bugs.png" style="max-height:40px;max-width: 40px"></i>
                   </a>
                   <h4><b>Bed Bugs Treatment</b></h4>
-                  <p>
-                    Bed bugs are a significant problem in India and around the world. They are easily spread and difficult to treat resulting in a rapid growth in the number of bed bug outbreaks.
-                  </p>
+
                 </div>
               </div>
               <!-- end about-details -->
@@ -261,20 +255,64 @@ Welcome to <b>Diamond Pest Control Services</b>  a Pest Control based company. W
                     </i>
                   </a>
                   <h4><b>Construction Termite Soil Treatment</b></h4>
-                  <p>
-                    The first step in pre construction treatment against White ants is to treat the walts and base of the footing trench with our chemical. Concrete is then poured in the trench to from the footing of the exterior wall.
-                  </p>
                 </div>
               </div>
               <!-- end about-details -->
             </div>
           </div>
         </div>
+
+        <div><br>
+        <h4 class="sec-head text-success">Other Services</h4><br><br>
+<!--         <hr>
+ -->
+        <div class="row px-2">
+
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <h6 ><b>Mosquito Control</b></h6>
+        </div>
+
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <h6><b>Ants Control</b></h6>
+        </div>
+
+
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <h6><b>Rodent control</b></h6>
+        </div>
+
+
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <h6><b>Anti Termite Treatment (Pre & Post construction)</b></h6>
+        </div>
+
+
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <h6><b>Bird control</b></h6>
+        </div>
+
+
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <h6><b>Bat Control</b></h6>
+        </div>
+
+
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <h6><b>Snake Control</b></h6>
+        </div>
+
+
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <h6><b>Disinfection service</b></h6>
+        </div>
+        </div>
+
+
       </div>
     </div><!-- End Services Section -->
 
-
-
+   </div>
+<br>
     <!-- ======= Rviews Section ======= -->
     <div class="reviews-area">
       <div class="row g-0">
@@ -283,13 +321,151 @@ Welcome to <b>Diamond Pest Control Services</b>  a Pest Control based company. W
         </div>
         <div class="col-lg-6 work-right-text d-flex align-items-center">
           <div class="px-5 py-5 py-lg-0">
-            <h2>working with us</h2>
-            <h5>Termite Control, Home Inspection, Disinfecting Offices, Schools, etc.</h5>
+            <h2>CHOOSING US AS YOUR PEST CONTROL SERVICE PROVIDER OFFERS YOU FOLLOWING BENEFITS</h2>
+            <ul>
+              <li class="text-white">Fully trained and qualified surveyors and technicians</li>
+              <li class="text-white">Demonstration of recognised Health & Safety procedures.</li>
+              <li class="text-white">Application of the Exclusion Restriction, Destruction</li>
+
+            </ul>
+
             <a href="#contact" class="ready-btn scrollto">Contact us</a>
           </div>
         </div>
       </div>
     </div><!-- End Rviews Section -->
+
+       <section id="mission" class="clients">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center mt-5">
+              <h2>Our Mission</h2>
+            </div>
+          </div>
+          <div class="container">
+<p class="">At<b> DIAMOND PEST CONTROL SERVICE</b>, it is our mission to provide the highest quality service of unmatched value to our clients through the efforts of a highly dedicated, trained and productive work force who share a commitment to long term growth and success of the company. Apart from of pest control our aim is to protect the environment from pollutants and contaminants and make healthy atmosphere for flora and fauna as well as human beings. Our mission is to provide people the best pest control services and set a standard in the field of pest control industry.</p></div>
+    </section><!-- End Clients Section -->
+
+
+
+    <!-- ======= Pricing Section ======= -->
+    <div id="clients" class="pricing-area area-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h2>OUR CLIENTS :</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="pri_table_list">
+              <h3>Education Sector: </h3>
+              <ol>
+                <li class="check"><i class="bi bi-check"></i><span>Jamia Millia Islamia , Central University</span></li>
+
+                <li class="check"><i class="bi bi-check"></i><span>Zakir Husain College, University of Delhi</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Conventry University</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>MMI Publishers</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Ghalib Academy  </span></li>
+              </ol>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="pri_table_list">
+              <h3>Healtcare: </h3>
+              <ol>
+                <li class="check"><i class="bi bi-check"></i><span> Holy Family Hospital</span></li>
+
+                <li class="check"><i class="bi bi-check"></i><span>Alshifa Multispeciality Hospital</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Ansari Health Centre</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Guru Hari Kishan Hospital slider</span></li>
+
+              </ol>
+            </div>
+
+          </div>
+
+
+
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="pri_table_list">
+              <h3>Media and IT : </h3>
+              <ol>
+                <li class="check"><i class="bi bi-check"></i><span>ZeeTV</span></li>
+
+                <li class="check"><i class="bi bi-check"></i><span>Network 18</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Carrier Media</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Planet Media</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Home shop 18</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>MCRC-JMI </span></li>
+              </ol>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="pri_table_list">
+              <h3>Religious Places : </h3>
+              <ol>
+                <li class="check"><i class="bi bi-check"></i><span>Mata Mandir</span></li>
+
+                <li class="check"><i class="bi bi-check"></i><span>Iskon Temple</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Jama Masjid , New Delhi</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Masjid Fatehpuri ,Chandni Chowk</span></li>
+              </ol>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="pri_table_list">
+              <h3>Heritage Monuments : </h3>
+              <ol>
+                <li class="check"><i class="bi bi-check"></i><span>National Gandhi Museum</span></li>
+
+                <li class="check"><i class="bi bi-check"></i><span>National Science Center</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Ghalib Academy </span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Raza Library</span></li>
+
+              </ol>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="pri_table_list">
+              <h3>Real Estate : </h3>
+              <ol>
+                <li class="check"><i class="bi bi-check"></i><span>DLF Okhla Phase-II</span></li>
+
+                <li class="check"><i class="bi bi-check"></i><span>Purvanchal Constructions Pvt. Ltd</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Al-Bunyan Constructions Pvt. Ltd</span></li>
+                <li class="check"><i class="bi bi-check"></i><span>Building Dept. JMI</span></li>
+
+              </ol>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div><!-- End Pricing Section -->
+
+
 
 
 
@@ -330,7 +506,7 @@ Welcome to <b>Diamond Pest Control Services</b>  a Pest Control based company. W
                   <i class="bi "><img src="/media/assets/img/service/mail-512.png" style="max-height:40px;max-width: 40px">
 
                   </i>                  <p>
-                    Email: info@example.com<br>
+                    Email:  diamondpestcontrolservices@gmail.com<br>
                     <span>Web: www.diamond-pest-control.com</span>
                   </p>
                 </div>
@@ -343,8 +519,8 @@ Welcome to <b>Diamond Pest Control Services</b>  a Pest Control based company. W
                   <i class="bi "><img src="/media/assets/img/service/worldwide-location-512.png" style="max-height:40px;max-width: 40px">
 
                   </i>                  <p>
-                    Location: A108 Kandivali West<br>
-                    <span>Mumbai, Maharashtra</span>
+                    F-143/6, 4th Floor, Shaheen Bagh, Abul Fazal Enclave-II,  <br>
+                    <span>New Delhi-110025</span>
                   </p>
                 </div>
               </div>
@@ -355,7 +531,8 @@ Welcome to <b>Diamond Pest Control Services</b>  a Pest Control based company. W
             <!-- Start Google Map -->
             <div class="col-md-6">
               <!-- Start Map -->
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+{#              <iframe src="" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>#}
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8938741.90427833!2d71.76691959242049!3d23.089991131563966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce58d4a9cf253%3A0x19405f001a54ee9d!2sDiamond%20Pest%20Control%20Service!5e0!3m2!1sen!2sin!4v1625922002274!5m2!1sen!2sin" width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
               <!-- End Map -->
             </div>
             <!-- End Google Map -->

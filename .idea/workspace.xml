@@ -2,154 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63807df4-ff9b-4000-be9f-04baf59093ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/about/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/about/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/background/page-header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/background/reviews-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/background/slider-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/b02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/hero-carousel/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/hero-carousel/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/hero-carousel/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/hero-carousel/SAMPLE 5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/hero-carousel/SAMPLE 6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/hero-carousel/disinfection copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/hero-carousel/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/hero-carousel/sample 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/hero-carousel/sample 3. copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/hero-carousel/sample 8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/hero-carousel/sample 90.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/hero-carousel/sample1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/preloader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/service/bugs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/service/cockroach (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/service/mail-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/service/rodent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/service/slide-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/service/smartphone-call.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/service/termite (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/service/termite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/service/woodborers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/service/worldwide-location-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/team/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/team/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/team/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/team/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/venubox/close.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/venubox/next.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/venubox/preload-circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/venubox/preload-dots.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/venubox/preload-ios.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/venubox/preload-quads.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/venubox/preload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/venubox/prev.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/animate.css/animate.compat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/animate.css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/animate.css/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/forms/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/forms/contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/about-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/about-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/about-us.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/blog-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/blog-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/blog-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/img-cta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/logo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/pest-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/pest-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/pest-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/pest-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/pest-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/pest-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/pest-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/pest-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/playstation-pattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/slide-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/slide-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/slide-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/slide-3.jpg - Shortcut.lnk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/testi-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/img/testi-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/service/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/service/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/img/service/3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contus/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/contus/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contus/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/contus/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contus/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/contus/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/blog-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/blog-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/blog-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/blog-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/blog-author.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/blog-inside-post.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/blog-recent-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/blog-recent-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/blog-recent-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/blog-recent-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/blog-recent-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/comments-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/comments-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/comments-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/comments-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/comments-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/blog/comments-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/clients/client-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/clients/client-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/clients/client-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/clients/client-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/clients/client-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/clients/client-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/clients/client-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/clients/client-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/hero-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/portfolio-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/portfolio-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/portfolio-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/portfolio-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/portfolio-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/portfolio-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/portfolio-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/portfolio-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/portfolio-9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/portfolio-details-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/portfolio-details-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/portfolio/portfolio-details-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/tabs-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/tabs-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/tabs-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/tabs-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/team/team-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/team/team-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/team/team-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/img/team/team-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/aos/aos.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/aos/aos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/bootstrap-icons/bootstrap-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/bootstrap-icons/bootstrap-icons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/boxicons/css/boxicons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/boxicons/css/boxicons.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/purecounter/purecounter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/remixicon/remixicon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/remixicon/remixicon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/remixicon/remixicon.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/remixicon/remixicon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/remixicon/remixicon.symbol.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/remixicon/remixicon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/remixicon/remixicon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static_cdn/media_root/assets/vendor/remixicon/remixicon.woff2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
     </list>
@@ -175,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static_cdn/media_root/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static_cdn/media_root/assets/img/service" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -184,13 +42,14 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Saad\PycharmProjects\diamondPest\diomond\static_cdn\media_root" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Saad\PycharmProjects\diamondPest\diomond\static_cdn\media_root\assets\img\service" />
       <recent name="C:\Users\Saad\PycharmProjects\diamondPest\diomond\static_cdn\media_root\assets\img" />
       <recent name="C:\Users\Saad\PycharmProjects\diamondPest\diomond\static_cdn\media_root" />
       <recent name="C:\Users\Saad\PycharmProjects\diamondPest\diomond\static_cdn\static_root\assets" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Saad\PycharmProjects\diamondPest\diomond\static_cdn\media_root" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,7 +103,10 @@
       <workItem from="1624821717918" duration="2535000" />
       <workItem from="1624867036422" duration="1322000" />
       <workItem from="1625004966828" duration="100000" />
-      <workItem from="1625045348671" duration="5191000" />
+      <workItem from="1625045348671" duration="8841000" />
+      <workItem from="1625169667649" duration="46000" />
+      <workItem from="1625389247007" duration="321000" />
+      <workItem from="1625913750456" duration="2964000" />
     </task>
     <servers />
   </component>
